@@ -26,7 +26,7 @@ chmod +x install_RPLII_TOOLS.sh
 - VPN	openvpn, wireguard
 - System Tools	fail2ban, rsync, ufw, gparted, synaptic
 
-📜 License & Credit
+📜 License & Credit  
 All scripts and material in this repo were created by RAPLI-DEV and released under the MIT license.
 Please use, modify, or distribute, while providing credit to this repository.
 
