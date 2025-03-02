@@ -20,7 +20,7 @@ fi
 
 dialog --title "instalation package" \
 --backtitle "repository from RAPLI-DEV" \
---yesno "\nTo ensure the package does not error after installation, you will reboot\n\nAre you sure you want to install the package?" 10 60
+--yesno "\nAfter installation, to ensure the package has no errors and runs properly, you must reboot\n\nAre you sure you want to install the package?" 10 60
 response=$?
 
 if [ $response -eq 0 ]; then
@@ -71,10 +71,16 @@ if [ $response -eq 0 ]; then
     echo -e "███████ DJAWA TIMOER\n"
 
     echo "Instalation success !"
-    echo "Your device will reboot in 5 seconds"
-    echo -e "\e[31mWARNING ! if you use wsl please ctrl+D and run wsl --shutdown in powershell\e[0m"
-    sleep 5
-    reboot
+        read -p "Do you want to restart the PC ? [y/n] " install_choice
+        install_choice=${install_choice:-n}
+    if [[ "$install_choice" =~ ^[Yy]$ ]]; then
+        echo "Your device will reboot in 5 seconds"
+        echo -e "\e[31mWARNING ! if you use wsl please ctrl+D and run wsl --shutdown in powershell\e[0m"
+        sleep 5
+        reboot
+    else
+        exit 1
+    fi
 else
     clear
 fi
