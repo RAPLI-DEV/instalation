@@ -12,7 +12,7 @@ su
 apt update
 apt install git -y
 git clone https://github.com/RAPLI-DEV/instalation.git
-cd instalation
+cd install
 chmod +x install_RPLII_TOOLS.sh
 ./install_RPLII_TOOLS.sh
 ```
