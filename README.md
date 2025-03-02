@@ -8,8 +8,9 @@ This script contains a list of packages that need to be installed to facilitate 
 
 ## 🚀 Installation Method
 ```bash
-sudo apt update
-sudo apt install git -y
+su
+apt update
+apt install git -y
 git clone https://github.com/RAPLI-DEV/instalation.git
 cd instalation
 chmod +x install_RPLII_TOOLS.sh
