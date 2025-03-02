@@ -16,14 +16,15 @@ chmod +x install_RPLII_TOOLS.sh
 ./install_RPLII_TOOLS.sh
 ```
 
+# other information
 📦 Packages Included
-Development	gcc, g++, make, cmake, python3, nodejs, php, ruby, openjdk-17, dll.
-Security Tools	nmap, wireshark, sqlmap, hydra, metasploit, ettercap, dll.
-Utilities	curl, wget, nano, vim, zsh, htop, tmux, screen, dll.
-Networking	openssh, traceroute, mtr, iperf3, arping, dll.
-Web Server	apache2, nginx, mariadb, postgresql, php-fpm, certbot
-VPN	openvpn, wireguard
-System Tools	fail2ban, rsync, ufw, gparted, synaptic
+- Development	gcc, g++, make, cmake, python3, nodejs, php, ruby, openjdk-17, dll.
+- Security Tools	nmap, wireshark, sqlmap, hydra, metasploit, ettercap, dll.
+- Utilities	curl, wget, nano, vim, zsh, htop, tmux, screen, dll.
+- Networking	openssh, traceroute, mtr, iperf3, arping, dll.
+- Web Server	apache2, nginx, mariadb, postgresql, php-fpm, certbot
+- VPN	openvpn, wireguard
+- System Tools	fail2ban, rsync, ufw, gparted, synaptic
 
 📜 License & Credit
 All scripts and material in this repo were created by RAPLI-DEV and released under the MIT license.
