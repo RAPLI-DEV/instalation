@@ -57,6 +57,8 @@ if [ $response -eq 0 ]; then
     apt install -y nginx mariadb-server mariadb-client postgresql php-fpm certbot
     apt install -y openvpn wireguard
     apt install -y gparted synaptic
+    sudo apt install -y libglib2.0-dev libgcrypt20-dev libc-ares-dev libpcap-dev libcap-dev libssh-dev libnghttp2-dev zlib1g-dev bison flex qt6-base-dev qt6-tools-dev qt6-tools-dev-tools
+    sudo apt install -y libsmi2-dev libmaxminddb-dev libnl-3-dev libnl-genl-3-dev libkrb5-dev libbrotli-dev liblz4-dev libzstd-de
 
     clear
     
